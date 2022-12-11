@@ -1,0 +1,13 @@
+.title{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.food-name{
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    font-variant: all-small-caps;
+    
+}
