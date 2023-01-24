@@ -2,18 +2,20 @@ body {
     background-color: lightseagreen;
 }
 
-.all-recipes{
-    margin: 0;
+.title{
+    margin: 30px;
     padding:5px;
-    background-color:lightseagreen;
+    background-color: rgb(202, 202, 202);
     font-family: Tahoma, sans-serif;
     font-size: 60px;
     font-weight: 500;
     text-align: center;
     font-variant: all-small-caps;
+    border: 20px;
+    border-color: black;
 }
 
-.all-recipes > h1, .recipe {
+.title > h1, .recipe {
     margin: 10px;
     padding: 5px;
 }
