@@ -2,24 +2,34 @@ body {
     background-color: lightseagreen;
 }
 
-.title{
-    margin: 30px;
-    padding: 15px;
+.title, .recipe{    
     border: 10px double black;
     border-radius: 1rem;
     background-color: rgb(202, 202, 202);
     font-family: Tahoma, sans-serif;
-    font-size: 4rem;
     text-align: center;
     font-variant: all-small-caps;
 }
 
-
-
-.recipe{
-    font-family: Tahoma, sans-serif;
-    font-size: 1.5rem;
-    font-variant: all-small-caps;
+.title {
+    font-size: 4rem;
+    padding: 15px;
+    margin: 30px;
 }
 
+.recipe {
+    font-size: 1.5rem;
+    padding: 15px 25px;
+}
 
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+a:hover, a:active {
+    text-decoration: line-through;
+    color:aliceblue;
+    
+}
