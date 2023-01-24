@@ -2,7 +2,7 @@ body {
     background-color: lightseagreen;
 }
 
-.title, .recipe{    
+.title {    
     border: 10px double black;
     border-radius: 1rem;
     background-color: rgb(202, 202, 202);
@@ -17,10 +17,23 @@ body {
     margin: 30px;
 }
 
-.recipe {
-    font-size: 1.5rem;
-    padding: 15px 25px;
+img {
+    border: 10px double black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(202, 202, 202);
 }
+
+.item {
+    padding: 15px 25px;
+    text-align: center;
+    display: inline;
+}
+
+
 
 a:link, a:visited {
     text-decoration: none;
@@ -32,5 +45,4 @@ a:link, a:visited {
 a:hover, a:active {
     text-decoration: line-through;
     color:aliceblue;
-    
 }
