@@ -20,6 +20,7 @@ body {
     float: inline-start;
     margin-left: 44%;
     margin-right: auto;
+    margin-bottom: 25px;
     max-width:fit-content;
 }
 
@@ -27,13 +28,17 @@ body {
     float: right;
     width: fit-content;
     height: fit-content;
-    
     padding-right: 10px;
     margin-right: 30px;
 }
 
+li {
+    margin-bottom: 3px;
+}
+
 .section {
-    margin-top: 25px;
+    width: 1800px;
+    margin: auto;
 }
 
 .section, .nav{
@@ -44,4 +49,14 @@ body {
 .image, .nav, .section {
     border: 5px double black;
     border-radius: 15px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    text-decoration: line-through;
+    color: black;
 }
