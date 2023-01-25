@@ -17,10 +17,10 @@ body {
 }
 
 .image {
-    display: block;
+    float: inline-start;
     margin-left: 44%;
     margin-right: auto;
-    max-width: 90%;
+    max-width:fit-content;
 }
 
 .nav {
