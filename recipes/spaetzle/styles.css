@@ -5,8 +5,15 @@ body {
 
 .header {
     font-size: 50px;
-    font-variant: small-caps;
     text-align: center;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.header, .title {
+    font-variant: small-caps;
 }
 
 .image {
@@ -18,15 +25,23 @@ body {
 
 .nav {
     float: right;
-    background-color: rgb(202, 202, 202);
     width: fit-content;
     height: fit-content;
-    padding-left: 10px;
+    
     padding-right: 10px;
     margin-right: 30px;
 }
 
-.image, .nav {
+.section {
+    margin-top: 25px;
+}
+
+.section, .nav{
+    background-color: rgb(202, 202, 202);
+    padding-left: 10px;
+}
+
+.image, .nav, .section {
     border: 5px double black;
     border-radius: 15px;
 }
